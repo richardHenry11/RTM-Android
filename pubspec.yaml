@@ -1,0 +1,68 @@
+name: rtm
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  web_socket_channel: ^2.4.0
+  socket_io_client: ^2.0.3+1
+  connectivity_plus: ^5.0.2
+  animated_text_kit: ^4.2.2
+  intl: ^0.18.1
+  syncfusion_flutter_datagrid: ^27.2.5
+  pdf: ^3.10.8
+  printing: ^5.13.4
+  path_provider: ^2.0.15
+  excel: ^4.0.6
+  fl_chart: ^0.64.0
+  flutter_native_splash: ^2.3.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  shared_preferences: ^2.2.2
+  http: ^0.13.5
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/RTM.png"
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logo.png
+    - assets/bg.png
+    - assets/vector.png
+    - assets/RTM.png
+
+flutter_native_splash:
+  color: "#1E1E1E" # background abu gelap
+  image: assets/RTM.png
+  branding: assets/logo.png
+  android: true
+  ios: true
+  web: false
+  android_gravity: center
+  ios_content_mode: center
+  image_dark: assets/RTM.png
+  #   - images/a_dot_ham.jpeg
